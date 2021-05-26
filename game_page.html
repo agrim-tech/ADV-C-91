@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guess The Word</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+	<center>
+		<div class="d-flex text-center justify-content-center">
+			<h2 id="name1" class="ubuntu text-white">Agrim:<h2 id="score1" class="libre-franklin text-white">10</h2>
+			</h2>
+		</div>
+		<br>
+		<div class="d-flex text-center justify-content-center">
+			<h2 id="name2" class="ubuntu text-white">Agrim2:<h2 id="score2" class="libre-franklin text-white">10</h2>
+			</h2>
+		</div>
+		<br>
+			<h3 id="question" class="libre-franklin text-white"></h3>
+			<h3 id="answer" class="libre-franklin text-white"></h3>
+		<div class="game-area col-lg-6 col-md-8 col-sm-10 col-xs-12" id="game-area">
+		</div>
+		<br>
+		<h2 class="ubuntu text-white">Guess The Word!</h2>
+		<br>
+		<input class=" col-lg-6 col-md-8 col-sm-10 col-xs-12 form-control libre-franklin" id="word" placeholder="Enter Word">
+		<br>
+		<button class="btn btn-info" onclick="send()">Submit Word</button>
+	</center>
+	<script src="game_page.js"></script>
+</body>

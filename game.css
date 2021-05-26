@@ -1,0 +1,67 @@
+body
+{
+	background-color: #303030;
+}
+
+.login_div1 , .login_div2{
+		padding: 10px;
+		float: none;
+}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.ubuntu{
+	font-family: 'Ubuntu',sans-serif;
+}
+.libre-franklin{
+	font-family: 'Libre Franklin' ,sans-serif;
+}
+.login-area{
+	background-color:#383838;
+	border-top: #424242 solid 6px;
+	border-left: #424242 solid 6px;
+	border-bottom:#323232 solid 6px;
+	border-right:#323232 solid 6px;
+	color: #e3e3e3;
+	border-radius: 15px;
+	margin-top: 35px;
+}
+.text-white{
+	color: #e3e3e3;
+}
+.koho{
+	font-family: 'KoHo', sans-serif;
+}
+.game-area{
+	border-top:#17a2b8 solid 8px;
+	background-color:#383838;
+	border-left: #424242 solid 6px;
+	border-bottom:#323232 solid 6px;
+	border-right:#323232 solid 6px;
+	color: #e3e3e3;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: 35px;
+	padding: 10px;
+}
